@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.inputbox {
+    font-size: medium;
+}
+.welcome{
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+p{
+    margin-top: 10px;
+}
+.remineBox{
+    font-size: medium;
+}
+button{
+    display: block;
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    color: white;
+    background-color: #02dec2;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
+}
+a{
+    color: #02dec2;
+}
+button:hover{
+    opacity: 0.8;
+}
+.inputbox > input[type="text"], input[type="password"]{
+    display: block;
+    width: 80%;
+    height: 35px;
+}
+.forgot{
+   text-align: right;
+   width: 80%;
+}
+
+.container-item1{
+    width: 50%;
+    text-align: center;
+}
+.container-item2{
+    width: 50%;
+    color: #1a2e35;
+
+}
+form > div{
+    margin-top: 10px;
+}
+.signup{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 75%;
+    /* height: 30rem; */
+}
